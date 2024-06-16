@@ -11,8 +11,8 @@ It is important to explain the logic behind your changes in the pull request des
 ## Getting Started:
 
 1.	Clone the repository.
-2.	Install dependencies: npm install
-3.	Start the development server: npm run dev
+2.	Install dependencies: `npm install`
+3.	Start the development server: `npm run dev`
 4.	Identify and fix the issues
 
 ## Submission:
