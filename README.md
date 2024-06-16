@@ -10,15 +10,15 @@ It is important to explain the logic behind your changes in the pull request des
 
 ## Getting Started:
 
-	1.	Clone the repository.
-	2.	Install dependencies: npm install
-	3.	Start the development server: npm run dev
-	4.	Identify and fix the issues
+1.	Clone the repository.
+2.	Install dependencies: npm install
+3.	Start the development server: npm run dev
+4.	Identify and fix the issues
 
 ## Submission:
 
-	•	Submit a pull request with your fixes for review.
-	•	In the pull request description, explain the logic behind your changes. Why did you choose to fix the issue in this way? How does your solution improve the code?
+* Submit a pull request with your fixes for review.
+* In the pull request description, explain the logic behind your changes. Why did you choose to fix the issue in this way? How does your solution improve the code?
 
 
 
