@@ -23,7 +23,7 @@ It is important to explain the logic behind your changes in the pull request des
   -Keep focus on input when adding task(use case is for when/ if user plans multiple tasks at once).\
   -handleSubmit function to prevent form from refreshing.\
   -Add onSubmit={handleSubmit} to form so user can press enter to submit.\
-  -Removed setNewTaskPriority("medium") from onAddTodo() function so last priority is remembered but resets on refresh.\
+  -Removed setNewTaskPriority("medium") from onAddTodo() function so last priority is remembered but resets on refresh.
 
 ## Issues
 
