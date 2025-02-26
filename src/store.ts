@@ -5,7 +5,7 @@ import { getAuth, signInAnonymously } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "react-test-83908.firebaseapp.com",
   projectId: "react-test-83908",
   storageBucket: "react-test-83908.appspot.com",
