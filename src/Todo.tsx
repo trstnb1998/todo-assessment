@@ -18,7 +18,7 @@ function Todo({ todo: externalTodo, onRemove, onComplete }: any) {
 
   return (
     <li
-      className={`flex items-center justify-between rounded-md px-4 py-2 gap-2`}
+      className={`flex items-center justify-between rounded-md px-4 py-2 gap-2 hover:bg-gray-900`}
     >
       <Checkbox
         id={`task-${todo.id}`}
@@ -27,22 +27,21 @@ function Todo({ todo: externalTodo, onRemove, onComplete }: any) {
       />
       <label
         htmlFor={`task-${todo.id}`}
-        className={`text-base flex-1 font-medium ${
-          todo.completed
-            ? "line-through text-gray-500 dark:text-gray-400"
-            : "text-gray-900 dark:text-gray-50"
-        }`}
+        className={`text-base flex-1 font-medium ${todo.completed
+          ? "line-through text-gray-500 dark:text-gray-400"
+          : "text-gray-900 dark:text-gray-50"
+          }`}
       >
         {todo.title}
       </label>
       <div
-        className={`rounded-md px-2 py-1 text-xs font-medium invisible md:visible ${
-          todo.priority === "high"
+        className={`rounded-md px-2 py-1 text-xs font-medium md:visible 
+          ${todo.priority === "high"
             ? "bg-red-100 text-red-600 dark:bg-red-900 dark:text-red-400"
             : todo.priority === "medium"
               ? "bg-yellow-100 text-yellow-600 dark:bg-yellow-900 dark:text-yellow-400"
               : "bg-green-100 text-green-600 dark:bg-green-900 dark:text-green-400"
-        }`}
+          }`}
       >
         {todo.priority}
       </div>
