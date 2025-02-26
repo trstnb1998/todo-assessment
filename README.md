@@ -18,12 +18,12 @@ It is important to explain the logic behind your changes in the pull request des
 - Hide form when user is on completed tab.
 - Priority order descends from high to low and when priority is the same, sort in alphabetical order.
 
-- Wrapped input field and button in form:
-  -User cannot add empty task and is now required to add text in field.
-  -Keep focus on input when adding task(use case is for when/ if user plans multiple tasks at once).
-  -handleSubmit function to prevent form from refreshing.
-  -Add onSubmit={handleSubmit} to form so user can press enter to submit.
-  -Removed setNewTaskPriority("medium") from onAddTodo() function so last priority is remembered but resets on refresh.
+- Wrapped input field and button in form:\
+  -User cannot add empty task and is now required to add text in field.\
+  -Keep focus on input when adding task(use case is for when/ if user plans multiple tasks at once).\
+  -handleSubmit function to prevent form from refreshing.\
+  -Add onSubmit={handleSubmit} to form so user can press enter to submit.\
+  -Removed setNewTaskPriority("medium") from onAddTodo() function so last priority is remembered but resets on refresh.\
 
 ## Issues
 
